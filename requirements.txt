@@ -1,10 +1,26 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-tensorflow
-torch
-transformers
-datasets
-jupyter
+# Projet DL - Refonte individuelle
+# Versions épinglées (Python 3.10+), mutuellement compatibles.
+# NB : ces pins n'ont pas pu être extraits d'un environnement installé ;
+#      ajuster si besoin via `pip freeze` après installation.
+
+# --- Calcul scientifique ---
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-learn==1.4.2
+
+# --- Deep Learning (PyTorch) ---
+torch==2.3.1
+torchvision==0.18.1
+
+# --- NLP (Hugging Face) ---
+transformers==4.41.2
+datasets==2.19.1
+
+# --- TensorFlow (export TFLite, TP3) ---
+tensorflow==2.16.1
+
+# --- Environnement notebook ---
+jupyter==1.0.0
+notebook==7.2.1
